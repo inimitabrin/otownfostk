@@ -1,0 +1,218 @@
+html, body {
+  overflow-x: hidden;
+}
+
+/* 
+  =====================================================
+  Custom Styles
+  =====================================================
+*/
+
+body {
+  font-family: "Basic", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Chelsea Market", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 20px;
+}
+
+/*
+  ======================================================
+  Grid
+  ======================================================
+*/
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
+.container:before,
+.container:after {
+  content: " ";
+  display: table;
+}
+
+.container:after {
+  clear:both;
+}
+
+.one-half, .one-third, .one-fourth {
+  width: 96%;
+  float: left;
+  position: relative;
+  margin: 0 2% 20px;
+}
+
+/*
+  ======================================================
+  Media Queries
+  ======================================================
+*/
+
+@media (max-width: 991px) {
+   header .one-half {
+    width: 46%;
+   }
+ }
+
+@media (min-width: 768px) {
+   .container {
+     width: 750px;
+   }
+ }
+
+ @media (min-width: 992px) {
+   .container {
+     width: 970px;
+   }
+   .one-half {
+     width: 46%;
+   }
+   .one-third {
+     width: 29.33333%;
+   }
+   .one-fourth {
+     width: 21%;
+   }
+ }
+
+ @media (min-width: 1200px) {
+   .container {
+     width: 1170px;
+   }
+ }
+
+ @media (min-width: 1240px) {
+   .container {
+     width: 1210px;
+   }
+ }
+
+/*
+  ======================================================
+  Header
+  ======================================================
+*/
+
+header {
+  color: #000000;
+  background: #26C6DA;
+}
+
+header nav {
+  padding: 1em 0;
+}
+
+header nav ul {
+  display: inline;
+  text-align: center;
+  float: right;
+  margin: 0;
+}
+
+header nav ul > li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+header nav ul > li > a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 27px;
+  font-family: "Chelsea Market", Helvetica, Arial, sans-serif;
+}
+
+header nav ul > li > a:hover {
+  color: #FFFFFF;
+}
+
+header .site-logo {
+  display: inline-block;
+}
+
+header .site-logo img {
+  height: 100px;
+}
+
+header .social img {
+  height: 50px;
+}
+
+/*
+  ======================================================
+  Body
+  ======================================================
+*/
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.donate h2 {
+  text-align: center;
+}
+
+.donate ul {
+  display: inline;
+  text-align: center;
+  margin: 0;
+}
+
+.donate ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 10px 0 200px;
+}
+
+.donate ul li img {
+  height: 70px;
+}
+
+/*
+  ======================================================
+  Footer
+  ======================================================
+*/
+
+footer {
+  background: #00ACC1;
+  color: #000000;
+  margin-top: 15px;
+  height: 115px;
+}
+
+footer img {
+  height: 62px;
+  float: right;
+  margin-top: 20px;
+}
+
+footer p {
+  margin-top: 30px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000000;
+}
