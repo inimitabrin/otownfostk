@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 40px;
 }
 
 h2 {
@@ -162,7 +162,9 @@ header .social img {
 */
 
 h1 {
-  text-align: center;
+  float: right;
+  margin: 170px 50px;
+
 }
 
 p {
@@ -187,7 +189,16 @@ p {
 
 .donate ul li img {
   height: 70px;
+  margin-bottom: 30px;
 }
+
+.snapwidget-widget {
+height: 300px;
+margin-top: 20px;
+margin-left: 50px;
+display: inline-block;
+}
+
 
 /*
   ======================================================
