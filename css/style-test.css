@@ -169,18 +169,6 @@ p {
     min-height: 200px;
     margin-top: 10px;
 }
-.blurb-2 {
-    text-align: left;
-    min-height: 300px;
-}
-@media (max-width: 615px) {
-    .blurb-2 {
-        display: inline-block;
-    }
-    .blurb-2 p, b {
-        text-align: justify;
-    }
-}
 
 .snapwidget-widget {
 height: 300px;
