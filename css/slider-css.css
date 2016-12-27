@@ -47,13 +47,13 @@
     display: none;
     position: absolute;
 
-	  opacity: 0;
+	  opacity: 0.5;
     z-index: 9;
     cursor: pointer;
 
     transition: opacity .2s;
 
-    color: #008F9E;
+    color: #000;
     font-size: 80pt;
     text-align: center;
     line-height: 300px;
