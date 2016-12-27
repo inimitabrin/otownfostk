@@ -232,20 +232,28 @@ iframe {
 
 .gallery {
     margin: 10px;
+    margin-bottom: 80px;
     border: 1px solid #555;
     border-radius: 8px;
     width: 180px;
+    height: 300px;
+    display: block;
     float: left;
 }
 
 .gallery img {
     width: 180px;
     height: auto;
+    border-bottom: 1px solid #555;
+    border-radius: 8px 8px 0 0;
 }
-    .gallery.desc {
+    .caption {
         padding: 15px;
-        text-align: center;
     }
+.caption p {
+    text-align: center;
+    font-size: 18px;
+}
 
 /*INDEX*/
 
