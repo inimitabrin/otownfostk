@@ -86,6 +86,10 @@ li {
 
 }
 
+.current {
+  color: #FFFFFF;
+}
+
 /*DROPDOWN MENUS*/
 li.dropdown {
     display: inline-block;
