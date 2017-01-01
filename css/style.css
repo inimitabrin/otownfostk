@@ -37,6 +37,9 @@ a {
 a:hover {
 	color: #FFF;
 }
+main a:hover {
+    color: #1C83A3;
+}
 
 /*Header*/
 
@@ -134,7 +137,7 @@ main {
 
 h1 {
 	font-size: 2em;
-	color: #008F9E;
+	color: #1C83A3;
 	line-height: 1.15em;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -259,6 +262,25 @@ iframe {
     font-size: 18px;
 }
 
+/*SUPPORT*/
+.gallery-2 {
+    margin: 10px;
+    margin-bottom: 80px;
+    border: 1px solid #555;
+    border-radius: 8px;
+    width: 180px;
+    height: 180px;
+    display: block;
+    float: left;
+}
+
+.gallery-2 img {
+    width: 180px;
+    height: auto;
+    border-bottom: 1px solid #555;
+    border-radius: 8px 8px 0 0;
+}
+
 /*INDEX*/
 
 .snapwidget-widget {
@@ -308,7 +330,7 @@ display: inline;
 
 		display:inline-block;
         z-index: 10;
-        background: #008B9C;
+        background: #8DDDED;
         font-size: 40px;
         padding: 10px;
         border-radius: 4px;
@@ -320,7 +342,7 @@ display: inline;
 		display: none;
 		position: absolute;
 		padding: 10px;
-		background: #008B9C;
+		background: #1C83A3;
 		border: 1px solid #444;
 		right: 10px;
 		top: 20px;
@@ -389,23 +411,28 @@ footer p {
 }
 @media (max-width: 500px) {
     footer {
-      background: #26C6DA;
+    background: #26C6DA;
     width: 100%;
-  height: 80px;
+    height: 50px;
 	border-top: 1px solid #555;
     position: fixed;
     bottom: 0px;
     }
+    footer p {
+        font-size: 10px;
+    }
     .leftfooter {
-        max-width: 50%
+        max-width: 50%;
+        margin-top: 10px;
     }
     .rightfooter {
-        max-width: 50%
+        max-width: 50%;
+        margin-top: 10px;
     }
     .donate {
     display: inline-block;
     margin-right: 20px;
-    margin-bottom: 140px;
+    margin-bottom: 80px;
     text-align: right;
     }
 }
