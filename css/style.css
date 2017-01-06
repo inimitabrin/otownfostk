@@ -56,11 +56,37 @@ header {
 }
 
 header img {
-    display: inline;
     position: absolute;
-    margin: 10px;
     margin-left: 20px;
     max-height: 80px;
+}
+
+@media (max-width: 730px) {
+    #logosmall {
+        display: inline;
+    }
+
+    #logobig {
+        display: none;
+    }
+
+    header img {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 731px) {
+    #logosmall {
+        display: none;
+    }
+
+    #logobig {
+        display: inline-block;
+    }
+
+    header img {
+        margin-top: 20px;
+    }
 }
 
 nav {
