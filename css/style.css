@@ -281,6 +281,34 @@ iframe {
     border-radius: 8px 8px 0 0;
 }
 
+/*SHOP*/
+
+.shop {
+    margin: 10px;
+    margin-bottom: 40px;
+    border: 1px solid #555;
+    border-radius: 8px;
+    width: 180px;
+    height: 180px;
+    display: block;
+    float: left;
+}
+
+.shop img {
+    width: 180px;
+    height: auto;
+    border-bottom: 1px solid #555;
+    border-radius: 8px;
+}
+
+.shop a:hover {
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    opacity: 0.2;
+    z-index: 1;
+}
+
 /*INDEX*/
 
 .snapwidget-widget {
