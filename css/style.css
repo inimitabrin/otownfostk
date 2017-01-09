@@ -61,7 +61,7 @@ header img {
     max-height: 80px;
 }
 
-@media (max-width: 730px) {
+@media (max-width: 779px) {
     #logosmall {
         display: inline;
     }
@@ -75,7 +75,7 @@ header img {
     }
 }
 
-@media (min-width: 731px) {
+@media (min-width: 780px) {
     #logosmall {
         display: none;
     }
@@ -85,7 +85,7 @@ header img {
     }
 
     header img {
-        margin-top: 20px;
+        margin-top: 10px;
     }
 }
 
@@ -372,7 +372,7 @@ display: inline;
 
 /*MEDIA QUERY - NAVIGATION*/
 
-@media (max-width : 640px) {
+@media (max-width : 580px) {
 
 	header {
 
