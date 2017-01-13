@@ -121,6 +121,7 @@ li {
 }
 
 /*DROPDOWN MENUS*/
+@media (min-width: 611px) {
 li.dropdown {
     display: inline-block;
 }
@@ -151,7 +152,7 @@ li.dropdown {
 li.dropdown:hover .dropdown-content {
     display: block;
 }
-
+}
 .current {
 	color: #FFFFFF;
 }
@@ -379,9 +380,7 @@ display: inline;
 @media (max-width : 610px) {
 
 	header {
-
 		position: fixed;
-
 	}
 
 	#hamburger {
@@ -394,60 +393,65 @@ display: inline;
         border-radius: 4px;
     }
     
+    nav {
+        height: auto;
+        transition: all 10s ease;
+    }
+    
     nav ul {
         display: none;
         position: absolute;
         background: #1C83A3;
-        padding: 10px;
 		border: 1px solid #444;
 		right: 10px;
-		top: 20px;
+		top: 10px;
         width: 150px;
 		border-radius: 4px;
+        line-height: 1;
         }
 
 	nav li {
-
 		text-align: left;
 		width: 100%;
-        line-height: .5;
-        padding: 10px;
+        padding: 0px;
+    }
+    nav li a:hover {
+        background: #26C6DA;
+        border-radius: 4px;
+        color: #FFF;
     }
     
     nav a {
     display: block;
+    padding: 10px;
     }
 
 	nav:hover ul {
 
 		display: inline-block;
+        z-index: 1000;   
+    }
+    nav:hover ul:hover {
+        min-height: 300px;
     }
     
-    li.dropdown {
-        position: relative;
-        display: inline-block;
+    li.dropdown .dropdown-content {
+        display: none;
+        line-height: 0.5;
     }
     
-    .dropdown-content {
-        position: relative;
-        border: none;
-        width: 100%;
-        margin-top: 10px;
-        background: #1C83A3;
-        opacity: 1;
-        border-radius: 0;
-    }
     .dropdown-content a {
+        padding-left: 20px;
         display: block;
-        text-align: left;
-        color: #D2EFF7;
-    }
-    .dropdown-content a:hover {
-        background: #1C83A3;
-        border-radius: 0;
+        width: 120px;
         color: #04394A;
     }
+    
+   .dropdown-content a:hover {
+        display: block;
+    }
     li.dropdown:hover .dropdown-content {
+        display: inline-block;
         position: relative;
     }
 }
