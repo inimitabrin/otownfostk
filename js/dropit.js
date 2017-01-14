@@ -7,6 +7,10 @@
  * http://www.opensource.org/licenses/mit-license.php
  */
 
+$(document).ready(function() {
+    $('.menu').dropit();
+});
+
 ;(function($) {
 
     $.fn.dropit = function(method) {

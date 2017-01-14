@@ -11,19 +11,18 @@
 .dropit {
     list-style: none;
 	padding: 0;
-	margin: 30px 15px 15px 15px;
+	margin: 15px;
 }
-.dropit .dropit-trigger { position: relative; }
+.dropit .dropit-trigger { position: absolute; }
 .dropit .dropit-submenu {
     position: absolute;
-    top: 100%;
-    left: 0; /* dropdown left or right */
-    z-index: 1000;
+    top: 100px;
+    right: 5px; /* dropdown left or right */
     display: none;
     min-width: 100px;
     list-style: none;
-	padding: 20px 30% 20px 30%;
-	margin: 35px 0 0;
+	padding: 20px;
+	margin: 15px;
 }
 .dropit .dropit-open .dropit-submenu { 
     display: block;
@@ -39,10 +38,9 @@
   border-color: #FFFFFF transparent;
   display: block;
   width: 0;
-  z-index: 1;
-  top: -8px;
-  left: 50%;
-  margin-left: -8px; 
+  top: 5px;
+  right: 0%;
+  margin-right: 5px; 
  }
 
  .dropit .dropit-open .dropit-submenu li {
@@ -56,7 +54,4 @@
 
 .dropit .dropit-open .dropit-submenu li a {
     color: #000000;
-    text-decoration: none;
-    font-family: "Raleway", Helvetica, Arial, sans-serif;
-    font-weight: 100;
 }
