@@ -398,11 +398,6 @@ display: inline;
         border-radius: 4px;
     }
     
-    nav {
-        height: auto;
-        transition: all 10s ease;
-    }
-    
     nav ul {
         display: none;
         position: absolute;
